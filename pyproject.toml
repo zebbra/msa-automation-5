@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "msa-automation-5"
+version = "0.1.0"
+description = "Explore network automation"
+authors = ["Simon Obi <simon.obi@zebbra.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+nornir-netmiko = "^1.0.1"
+nornir = "^3.4.1"
+requests = "^2.32.3"
+napalm = "^5.0.0"
+nornir-scrapli = "^2024.7.30"
+ncclient = "^0.6.16"
+nornir-netconf = "^2.1.0"
+batfish = "^0.0.2"
+pyats = "^24.10"
+netmiko = "^4.4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+black = "^24.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
