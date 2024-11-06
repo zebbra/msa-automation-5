@@ -15,7 +15,7 @@ nornir-scrapli = "^2024.7.30"
 ncclient = "^0.6.16"
 nornir-netconf = "^2.1.0"
 batfish = "^0.0.2"
-pyats = "^24.10"
+pyats = {extras = ["full"], version = "^24.10"}
 netmiko = "^4.4.0"
 
 [tool.poetry.group.dev.dependencies]

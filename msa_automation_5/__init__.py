@@ -1,3 +1,3 @@
-from .function import inc
+from .function import inc, dec
 
-__all__ = ('inc',)
+__all__ = ("inc", "dec")
