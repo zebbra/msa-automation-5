@@ -1,0 +1,15 @@
+---
+csr1:
+  hostname: clab2.broccoli.rocks
+  platform: ios
+  port: 62002
+  username: admin
+  password: 2OnthEatwaHoj
+  groups: [lab]
+csr2:
+  hostname: clab2.broccoli.rocks
+  platform: ios
+  port: 62002
+  username: admin
+  password: 2OnthEatwaHoj
+  groups: [lab]
